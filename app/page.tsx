@@ -3,6 +3,7 @@ import WorkProjects from "@/components/WorkProjects";
 import SchoolProjects from "@/components/SchoolProjects";
 import AboutMe from "@/components/AboutMe";
 import Contact from "@/components/Contact";
+import ParallaxSection from "@/components/ParallaxSection";
 
 export default function Home() {
   return (
@@ -21,6 +22,9 @@ export default function Home() {
           </svg>
         </div>
       </section>
+
+      {/* Du kan exempelvis lägga in ParallaxSection här om du vill ha en parallax-effekt */}
+      {/* <ParallaxSection /> */}
 
       {/* === SEKTION 2: WorkProjects (bg-[#2D2D2D]) === */}
       <section className="relative w-full min-h-screen bg-[#2D2D2D] flex flex-col items-center justify-center pt-16 pb-32">
@@ -77,11 +81,10 @@ export default function Home() {
 
       {/* === SEKTION 5: Kontakt (Contact, bg-gray-200) === */}
       <section id="contact" className="relative w-full min-h-screen bg-[#646464] flex items-center justify-center">
-  <div className="w-full max-w-4xl px-4">
-    <Contact />
-  </div>
-</section>
-
+        <div className="w-full max-w-4xl px-4">
+          <Contact />
+        </div>
+      </section>
     </main>
   );
 }

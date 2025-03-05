@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@geist-ui/react": "^2.2.5",
-    "@next/font": "^14.2.15",
     "@react-three/drei": "^10.0.3",
     "@react-three/fiber": "^9.0.4",
     "@react-three/gltfjsx": "^4.3.4",

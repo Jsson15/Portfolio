@@ -1,40 +1,106 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Henric Johanssons Portfolio
+Detta är mitt personliga portfolio-projekt byggt i Next.js och TypeScript. Sidan innehåller bland annat:
 
-## Getting Started
+En Landing-sektion som presenterar mig och mitt arbete.
+WorkProjects-sektionen med projekt från arbetslivet.
+SchoolProjects-sektionen med projekt från studier.
+En AboutMe-sektion med kortfattad information om mig och mina erfarenheter, inklusive interaktiva kort (InfoCards).
+En Contact-sektion där besökare kan hitta länkar till mina sociala medier eller skicka e-post.
+Innehållsförteckning
+Teknikstack
+Installation och körning
+Struktur
+Konfiguration
+Deploy
+Kontakt
+Teknikstack
+Next.js 13 – React-ramverk för fullstack-appar.
+TypeScript – Ger typning för säkrare kod.
+Tailwind CSS – För snabb och smidig styling.
+Framer Motion – Används för animerade övergångar och effekter.
+React Icons – Ikoner för kontaktlänkar och UI-element.
+Installation och körning
+Kloning:
 
-First, run the development server:
+bash
+Kopiera
+git clone https://github.com/DittAnvändarnamn/my-portfolio.git
+cd my-portfolio
+Installera beroenden:
 
-```bash
+bash
+Kopiera
+npm install
+eller
+
+bash
+Kopiera
+yarn
+Starta utvecklingsservern:
+
+bash
+Kopiera
 npm run dev
-# or
+eller
+
+bash
+Kopiera
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Öppna sedan http://localhost:3000 i din webbläsare.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Struktur
+En förenklad vy av mappstrukturen:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+kotlin
+Kopiera
+my-portfolio
+├─ app
+│  ├─ layout.tsx
+│  ├─ page.tsx
+│  ├─ (ev. no-repo)/page.tsx  // Fallback-sida för icke-existerande repos
+│  └─ ...
+├─ components
+│  ├─ Landing.tsx
+│  ├─ WorkProjects.tsx
+│  ├─ SchoolProjects.tsx
+│  ├─ AboutMe.tsx
+│  ├─ Contact.tsx
+│  └─ InfoCards.tsx
+├─ data
+│  └─ projectsData.ts
+├─ public
+├─ .gitignore
+├─ package.json
+├─ tsconfig.json
+├─ README.md
+└─ ...
+app/layout.tsx – Huvudlayout för Next.js 13.
+app/page.tsx – Startsida som importerar Landing, Projects-sektioner osv.
+components – Alla återanvändbara komponenter.
+data/projectsData.ts – Hårdkodade projekt med kategori (work/school), länkar, etc.
+no-repo/page.tsx (exempel) – Fallback-sida för projekt som saknar GitHub-repo.
+InfoCards.tsx – Interaktiva kort i AboutMe-sektionen.
+Konfiguration
+Tailwind: Konfigureras i tailwind.config.js.
+Typings: Ställs in i tsconfig.json.
+Metadata: app/layout.tsx kan innehålla metadata för SEO, t.ex. sidtitel och beskrivning.
+Deploy
+Vercel (rekommenderas):
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Logga in på vercel.com med GitHub-konto.
+Importera ditt repo och klicka på “Deploy”.
+Vercel konfigurerar automatiskt en Next.js-app.
+Netlify:
 
-## Learn More
+Byggkommando: npm run build
+Publik mapp: .next (eller out om du använder next export)
+Andra plattformar:
 
-To learn more about Next.js, take a look at the following resources:
+Du kan även köra Docker, Azure eller traditionella servrar.
+Kontakt
+Har du frågor eller vill veta mer?
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# Portfolio
->>>>>>> 815f81824c70dbea4fecbdacaf4e436394a271be
+E-post: henric.k.johansson@telia.com
+LinkedIn: [linkedin.com/in/dinlinkedin](https://www.linkedin.com/in/henric-johansson-112a03237/)
+GitHub: [github.com/dingithub](https://github.com/Jsson15)
+Tack för att du tittar på mitt portfolio-projekt! Har du feedback eller förslag, hör gärna av dig.

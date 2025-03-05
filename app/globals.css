@@ -17,6 +17,17 @@
   }
 }
 
+/* Nytt: Scroll-behavior och box-sizing */
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);

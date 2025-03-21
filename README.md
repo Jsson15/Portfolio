@@ -101,6 +101,6 @@ Kontakt
 Har du frågor eller vill veta mer?
 
 E-post: henric.k.johansson@telia.com
-LinkedIn: [linkedin.com/in/dinlinkedin](https://www.linkedin.com/in/henric-johansson-112a03237/)
-GitHub: [github.com/dingithub](https://github.com/Jsson15)
+LinkedIn: [linkedin.com/in/](https://www.linkedin.com/in/henric-johansson-112a03237/)
+GitHub: [github.com/](https://github.com/Jsson15)
 Tack för att du tittar på mitt portfolio-projekt! Har du feedback eller förslag, hör gärna av dig.
